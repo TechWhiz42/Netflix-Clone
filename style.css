@@ -33,6 +33,7 @@ nav {
     display: flex;
     color: white;
     justify-content: space-between;
+    
     align-items: center;
     max-width: 90vw;
     margin: auto;
@@ -48,6 +49,7 @@ nav img {
 
 .hero {
     font-family: "Martel Sans", sans-serif;
+    font-size:clamp(1.5rem, 3vw, 3rem); ;
     height: 395px;
     display: flex;
     justify-content: center;
@@ -233,6 +235,25 @@ select {
     background-size: cover;
 }
 @media (max-width: 768px) {
+    .emailcontaner input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .emailcontaner input, .getstarted {
+        width: 90%;
+    }
+    .hero {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    .navbar select, .navbar button{
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    nav img{
+        width: 90px;
+    }
     .hero {
         font-size: 20px; 
     }
@@ -240,7 +261,7 @@ select {
         flex-direction: column; 
     }
     .getstarted {
-        width: 50%;
+        width: 80%;
         height: 196px;
     }
     .movies-section {
@@ -306,4 +327,35 @@ p2{
     padding-left: 265px;
     display: flex;
     flex-direction: column;
+}
+.endsignin{
+    padding-bottom: 60px;
+}
+p3{
+    color: #FFFFFFB3;
+    width: 267px;
+    height: 21px;
+    padding: 50px 0 0 50px;
+}
+.endpage{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+    padding: 50px 40px 0px 50px;
+    color: white;
+}
+.end{
+    height: 150px;
+    width: 300px;
+    border: 2px 
+}
+a{
+    color: #FFFFFFB3;
+    font-family: 'Netflix Sans', "Martel Sans", sans-serif;
+}
+
+.end{
+    padding-left: 20px;
 }
